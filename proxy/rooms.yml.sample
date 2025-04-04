@@ -1,0 +1,10 @@
+timezone: Europe/Amsterdam
+
+rooms:
+  - mac_address: 01:02:03:04:AA:BB
+    name: Tulip Room
+    ical_url: https://calendar.google.com/calendar/ical/c_sample_sample%40resource.calendar.google.com/private-1234abcd/basic.ics
+  - mac_address: 01:02:03:04:CC:DD
+    name: Oak Room
+    ical_url: https://calendar.google.com/calendar/ical/c_sample_sample%40resource.calendar.google.com/private-ef01234c/basic.ics
+
