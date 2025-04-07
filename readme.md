@@ -5,7 +5,19 @@ panels as room panels to show the availability of rooms based on their Google
 Calendars.
 
 The calendar processing is handled by a server component. If you are looking for
-a strictly client-only implementation, this project may not be for you.
+a strictly client-only implementation, this project may not be for you. This
+client-server setup is shown in the image below.
+
+<p align="center" width="100%">
+    <img width="50%" src="images/client-server-arch.png">
+</p>
+
+There is no authentication on the server component. We rely on IP whitelisting
+instead. IP whitelisting is not a particularly strung method of securing your
+systems, but the room panels are typically being used from a single building.
+All the people in that building are likely to have access to the calendars
+anyway, so security is mainly to block anyone from the greater Internet from
+accessing the service.
 
 ## Server Setup
 
